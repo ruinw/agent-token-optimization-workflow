@@ -4,17 +4,30 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 
 适用范围：`Codex`、`Claude Code` 及其他通用 Agent CLI。
 
-## Why This Exists
+## At a Glance
 
-Many agent projects become expensive for the wrong reasons:
+- Reduce fixed context cost
+- Reduce repeated context loading
+- Keep critical skill recall stable
+- Keep simple tasks fast
+- Support dynamic skill discovery as projects evolve
 
-- oversized global instructions
-- repeated loading of the same context
-- overexposed skill catalogs
-- long raw session history
-- no mechanism to discover new skills as projects evolve
+## Start Here
 
-This repository packages a practical workflow to reduce those costs without making agents dumber, slower, or more fragile.
+### Existing projects
+
+1. Read [the summary](docs/token-optimization-summary.md).
+2. Read [the team guide](TEAM_GUIDE.md).
+3. Follow [the SOP](STANDARD_OPERATING_PROCEDURE.md).
+4. Use [the checklist](docs/token-optimization-checklist.md).
+5. Start from [the prompt templates](templates/prompt-templates.md).
+
+### New projects
+
+1. Read [the summary](docs/token-optimization-summary.md).
+2. Read [the prompt templates](templates/prompt-templates.md).
+3. Initialize `PROJECT_CONTEXT.md`, `PROJECT_SKILLS.md`, and a session summary template.
+4. Use [the checklist](docs/token-optimization-checklist.md) to keep the setup lightweight.
 
 ## Who This Is For
 
@@ -32,22 +45,17 @@ This repository packages a practical workflow to reduce those costs without maki
 - reusable prompt templates for existing and new projects
 - an external-share package for lightweight distribution
 
-## Quick Start
+## Why This Exists
 
-### If you have an existing project
+Many agent projects become expensive for the wrong reasons:
 
-1. Read [the summary](docs/token-optimization-summary.md).
-2. Read [the team guide](TEAM_GUIDE.md).
-3. Follow [the SOP](STANDARD_OPERATING_PROCEDURE.md).
-4. Use [the checklist](docs/token-optimization-checklist.md).
-5. Start from [the prompt templates](templates/prompt-templates.md).
+- oversized global instructions
+- repeated loading of the same context
+- overexposed skill catalogs
+- long raw session history
+- no mechanism to discover new skills as projects evolve
 
-### If you are starting a new project
-
-1. Read [the summary](docs/token-optimization-summary.md).
-2. Read [the prompt templates](templates/prompt-templates.md).
-3. Initialize `PROJECT_CONTEXT.md`, `PROJECT_SKILLS.md`, and a session summary template.
-4. Use [the checklist](docs/token-optimization-checklist.md) to keep the setup lightweight.
+This repository packages a practical workflow to reduce those costs without making agents dumber, slower, or more fragile.
 
 ## Core Ideas
 
