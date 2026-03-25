@@ -16,22 +16,45 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 - Keep simple tasks fast
 - Support dynamic skill discovery as projects evolve
 
-## Start Here
+## Quick Start
 
-### Existing projects
-
-1. Read [the summary](docs/token-optimization-summary.md).
-2. Read [the team guide](TEAM_GUIDE.md).
-3. Follow [the SOP](STANDARD_OPERATING_PROCEDURE.md).
-4. Use [the checklist](docs/token-optimization-checklist.md).
-5. Start from [the prompt templates](templates/prompt-templates.md).
-
-### New projects
+### Existing project
 
 1. Read [the summary](docs/token-optimization-summary.md).
-2. Read [the prompt templates](templates/prompt-templates.md).
-3. Initialize `PROJECT_CONTEXT.md`, `PROJECT_SKILLS.md`, and a session summary template.
+2. Copy the existing-project prompt from [templates/prompt-templates.md](templates/prompt-templates.md).
+3. Generate or update:
+   - `PROJECT_CONTEXT.md`
+   - `PROJECT_SKILLS.md`
+   - `docs/token-optimization/token-optimization-report.md`
+   - `docs/token-optimization/token-optimization-checklist.md`
+4. Follow [the SOP](STANDARD_OPERATING_PROCEDURE.md).
+
+### New project
+
+1. Read [the summary](docs/token-optimization-summary.md).
+2. Copy the new-project prompt from [templates/prompt-templates.md](templates/prompt-templates.md).
+3. Initialize:
+   - `PROJECT_CONTEXT.md`
+   - `PROJECT_SKILLS.md`
+   - `SESSION_SUMMARY_TEMPLATE.md`
 4. Use [the checklist](docs/token-optimization-checklist.md) to keep the setup lightweight.
+
+## Minimal Adoption
+
+If you only do one thing, do this:
+
+1. Create `PROJECT_CONTEXT.md`.
+2. Create `PROJECT_SKILLS.md`.
+3. Use [the checklist](docs/token-optimization-checklist.md).
+
+This gives you the lowest-friction version of the workflow.
+
+## Copy-and-Use Entry Points
+
+- Existing projects: [templates/prompt-templates.md](templates/prompt-templates.md)
+- New projects: [templates/prompt-templates.md](templates/prompt-templates.md)
+- Team conventions: [TEAM_GUIDE.md](TEAM_GUIDE.md)
+- Execution flow: [STANDARD_OPERATING_PROCEDURE.md](STANDARD_OPERATING_PROCEDURE.md)
 
 ## Who This Is For
 
@@ -49,7 +72,7 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 - reusable prompt templates for existing and new projects
 - an external-share package for lightweight distribution
 
-## Why This Exists
+## What Problems This Solves
 
 Many agent projects become expensive for the wrong reasons:
 
@@ -68,6 +91,16 @@ This repository packages a practical workflow to reduce those costs without maki
 - Keep indexes resident, but load detailed content on demand.
 - Replace long raw history with structured summaries.
 - Support dynamic skill recall when new domains or task types appear.
+
+## What You Will End Up With
+
+Teams using this workflow should aim to achieve:
+
+- lower fixed token cost per session
+- lower repeated context cost in long conversations
+- stable or improved skill recall
+- no significant increase in clarification rounds
+- no significant regression in task success rate
 
 ## Repository Structure
 
@@ -102,16 +135,6 @@ This repository packages a practical workflow to reduce those costs without maki
 4. [docs/token-optimization-report.md](docs/token-optimization-report.md)
 5. [docs/token-optimization-checklist.md](docs/token-optimization-checklist.md)
 6. [templates/prompt-templates.md](templates/prompt-templates.md)
-
-## Typical Outcomes
-
-Teams using this workflow should aim to achieve:
-
-- lower fixed token cost per session
-- lower repeated context cost in long conversations
-- stable or improved skill recall
-- no significant increase in clarification rounds
-- no significant regression in task success rate
 
 ## External Sharing
 
