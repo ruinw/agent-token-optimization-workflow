@@ -21,7 +21,7 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 ### Existing project
 
 1. Read [the summary](docs/token-optimization-summary.md).
-2. Copy the existing-project prompt from [templates/prompt-templates.md](templates/prompt-templates.md).
+2. Copy the existing-project prompt from [templates/prompt-templates.md#existing-project-prompt](templates/prompt-templates.md#existing-project-prompt).
 3. Generate or update:
    - `PROJECT_CONTEXT.md`
    - `PROJECT_SKILLS.md`
@@ -32,7 +32,7 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 ### New project
 
 1. Read [the summary](docs/token-optimization-summary.md).
-2. Copy the new-project prompt from [templates/prompt-templates.md](templates/prompt-templates.md).
+2. Copy the new-project prompt from [templates/prompt-templates.md#existing-project-prompt](templates/prompt-templates.md#existing-project-prompt).
 3. Initialize:
    - `PROJECT_CONTEXT.md`
    - `PROJECT_SKILLS.md`
@@ -51,8 +51,8 @@ This gives you the lowest-friction version of the workflow.
 
 ## Copy-and-Use Entry Points
 
-- Existing projects: [templates/prompt-templates.md](templates/prompt-templates.md)
-- New projects: [templates/prompt-templates.md](templates/prompt-templates.md)
+- Existing projects: [templates/prompt-templates.md#existing-project-prompt](templates/prompt-templates.md#existing-project-prompt)
+- New projects: [templates/prompt-templates.md#new-project-prompt](templates/prompt-templates.md#new-project-prompt)
 - Team conventions: [TEAM_GUIDE.md](TEAM_GUIDE.md)
 - Execution flow: [STANDARD_OPERATING_PROCEDURE.md](STANDARD_OPERATING_PROCEDURE.md)
 
@@ -143,3 +143,4 @@ If you want to share a lighter package, use [external-share/](external-share/). 
 ## License
 
 This repository is prepared with an MIT license by default. Change it if your distribution policy requires a different license.
+

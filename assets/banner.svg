@@ -1,32 +1,36 @@
 ﻿<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Agent Token Optimization Workflow Banner</title>
-  <desc id="desc">Abstract banner with layered context panels and a central token core.</desc>
+  <desc id="desc">Abstract funnel-style banner representing context compression and token optimization.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F8FBFF"/>
       <stop offset="1" stop-color="#EEF4FF"/>
     </linearGradient>
-    <linearGradient id="panel1" x1="92" y1="118" x2="336" y2="118" gradientUnits="userSpaceOnUse">
+    <linearGradient id="flowA" x1="80" y1="130" x2="300" y2="130" gradientUnits="userSpaceOnUse">
       <stop stop-color="#DCEAFE"/>
-      <stop offset="1" stop-color="#C7D9FB"/>
+      <stop offset="1" stop-color="#C9D8FB"/>
     </linearGradient>
-    <linearGradient id="panel2" x1="116" y1="160" x2="360" y2="160" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#CFE7FF"/>
-      <stop offset="1" stop-color="#B8DBFF"/>
+    <linearGradient id="flowB" x1="92" y1="210" x2="312" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7EEFF"/>
+      <stop offset="1" stop-color="#BFE0FF"/>
     </linearGradient>
-    <linearGradient id="panel3" x1="140" y1="202" x2="384" y2="202" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#BEE9E7"/>
-      <stop offset="1" stop-color="#A7F3D0"/>
+    <linearGradient id="flowC" x1="104" y1="290" x2="324" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6F6EA"/>
+      <stop offset="1" stop-color="#B6F0D6"/>
     </linearGradient>
-    <linearGradient id="token" x1="204" y1="176" x2="300" y2="272" gradientUnits="userSpaceOnUse">
+    <linearGradient id="funnel" x1="300" y1="140" x2="470" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFD4FF"/>
+      <stop offset="1" stop-color="#8EB5F5"/>
+    </linearGradient>
+    <linearGradient id="token" x1="452" y1="172" x2="556" y2="276" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FB923C"/>
       <stop offset="1" stop-color="#EA580C"/>
     </linearGradient>
-    <filter id="shadow" x="60" y="70" width="380" height="280" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#A9BFE9" flood-opacity="0.28"/>
-    </filter>
-    <filter id="blur" x="0" y="0" width="1600" height="500" filterUnits="userSpaceOnUse">
+    <filter id="soft" x="0" y="0" width="1600" height="500" filterUnits="userSpaceOnUse">
       <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="shadow" x="40" y="70" width="560" height="320" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#A9BFE9" flood-opacity="0.24"/>
     </filter>
   </defs>
 
@@ -52,43 +56,42 @@
     <path d="M1400 52V452" stroke="#D7E3F8" stroke-width="2"/>
   </g>
 
-  <g filter="url(#blur)" opacity="0.30">
+  <g filter="url(#soft)" opacity="0.32">
     <circle cx="1366" cy="116" r="84" fill="#B9D8FF"/>
     <circle cx="1486" cy="182" r="70" fill="#D9E8FF"/>
     <circle cx="1288" cy="356" r="92" fill="#BDEFD8"/>
   </g>
 
   <g filter="url(#shadow)">
-    <rect x="92" y="92" width="244" height="118" rx="26" fill="url(#panel1)" stroke="#A9C4F5" stroke-width="4"/>
-    <rect x="116" y="146" width="244" height="118" rx="26" fill="url(#panel2)" stroke="#86B6F6" stroke-width="4"/>
-    <rect x="140" y="200" width="244" height="118" rx="26" fill="url(#panel3)" stroke="#74D1C0" stroke-width="4"/>
+    <rect x="88" y="102" width="238" height="56" rx="22" fill="url(#flowA)" stroke="#A7C2F4" stroke-width="4"/>
+    <rect x="96" y="184" width="238" height="56" rx="22" fill="url(#flowB)" stroke="#8FC0F7" stroke-width="4"/>
+    <rect x="104" y="266" width="238" height="56" rx="22" fill="url(#flowC)" stroke="#7ED5C1" stroke-width="4"/>
 
-    <path d="M384 151L442 151" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M384 205L442 205" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M384 259L442 259" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M426 136L450 151L426 166" fill="none" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M426 190L450 205L426 220" fill="none" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M426 244L450 259L426 274" fill="none" stroke="#6A8ED8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M326 130H370" stroke="#6E90DA" stroke-width="6" stroke-linecap="round"/>
+    <path d="M334 212H370" stroke="#6E90DA" stroke-width="6" stroke-linecap="round"/>
+    <path d="M342 294H370" stroke="#6E90DA" stroke-width="6" stroke-linecap="round"/>
 
-    <circle cx="262" cy="205" r="54" fill="url(#token)" stroke="#C2410C" stroke-width="6"/>
-    <circle cx="262" cy="205" r="20" fill="#FFF7ED" opacity="0.85"/>
+    <path d="M372 108L458 170V254L372 316L300 278V146L372 108Z" fill="url(#funnel)" stroke="#6D92DB" stroke-width="5"/>
+    <path d="M332 166L388 166" stroke="#4D73C5" stroke-width="5" stroke-linecap="round"/>
+    <path d="M340 212L404 212" stroke="#4D73C5" stroke-width="5" stroke-linecap="round"/>
+    <path d="M348 258L420 258" stroke="#4D73C5" stroke-width="5" stroke-linecap="round"/>
 
-    <path d="M190 152L190 257" stroke="#2558B8" stroke-width="5" stroke-linecap="round"/>
-    <path d="M262 152L262 257" stroke="#2558B8" stroke-width="5" stroke-linecap="round"/>
-    <path d="M334 152L334 257" stroke="#2558B8" stroke-width="5" stroke-linecap="round"/>
-    <path d="M176 205H348" stroke="#2558B8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M458 212H492" stroke="#5B7FD1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M478 194L502 212L478 230" fill="none" stroke="#5B7FD1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="542" cy="212" r="54" fill="url(#token)" stroke="#C2410C" stroke-width="6"/>
+    <circle cx="542" cy="212" r="18" fill="#FFF7ED" opacity="0.95"/>
+    <circle cx="542" cy="212" r="76" stroke="#CFE0FB" stroke-width="8"/>
+    <circle cx="542" cy="212" r="98" stroke="#E2ECFF" stroke-width="5" stroke-dasharray="8 12"/>
   </g>
 
-  <g transform="translate(500 118)">
+  <g transform="translate(640 118)">
     <rect x="0" y="12" width="144" height="24" rx="12" fill="#DBEAFE"/>
     <text x="72" y="29" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D4ED8">LOW TOKEN WORKFLOW</text>
-
     <text x="0" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#102A43">Agent Token</text>
     <text x="0" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#102A43">Optimization Workflow</text>
-
     <text x="2" y="246" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#24507A">Reduce token cost without hurting agent quality.</text>
     <text x="2" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#476582">Docs, SOPs, templates, and patterns for low-token agent development.</text>
-
     <g transform="translate(0 334)">
       <rect x="0" y="0" width="126" height="38" rx="19" fill="#E8F1FF"/>
       <text x="63" y="24" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E40AF">Codex</text>
