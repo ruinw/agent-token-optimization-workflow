@@ -32,7 +32,7 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 ### New project
 
 1. Read [the summary](docs/token-optimization-summary.md).
-2. Copy the new-project prompt from [templates/prompt-templates.md#existing-project-prompt](templates/prompt-templates.md#existing-project-prompt).
+2. Copy the new-project prompt from [templates/prompt-templates.md#new-project-prompt](templates/prompt-templates.md#new-project-prompt).
 3. Initialize:
    - `PROJECT_CONTEXT.md`
    - `PROJECT_SKILLS.md`
@@ -143,4 +143,5 @@ If you want to share a lighter package, use [external-share/](external-share/). 
 ## License
 
 This repository is prepared with an MIT license by default. Change it if your distribution policy requires a different license.
+
 
