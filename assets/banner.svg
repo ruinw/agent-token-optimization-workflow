@@ -1,0 +1,79 @@
+﻿<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Token Optimization Workflow Banner</title>
+  <desc id="desc">Open-source style banner for the Agent Token Optimization Workflow repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="176" y1="110" x2="420" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="token" x1="252" y1="162" x2="344" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="soft" x="-20" y="-20" width="1640" height="540" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.55">
+    <path d="M84 79H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M84 151H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M84 223H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M84 295H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M84 367H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M84 439H1516" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M120 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M248 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M376 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M504 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M632 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M760 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M888 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M1016 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M1144 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M1272 52V452" stroke="#D7E3F8" stroke-width="2"/>
+    <path d="M1400 52V452" stroke="#D7E3F8" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#soft)" opacity="0.35">
+    <circle cx="1356" cy="116" r="84" fill="#93C5FD"/>
+    <circle cx="1484" cy="180" r="72" fill="#BFDBFE"/>
+    <circle cx="1304" cy="352" r="96" fill="#A7F3D0"/>
+  </g>
+
+  <g transform="translate(110 90)">
+    <circle cx="170" cy="160" r="132" fill="white" stroke="#CFE0FB" stroke-width="10"/>
+    <circle cx="170" cy="160" r="106" fill="#F8FBFF" stroke="url(#accent)" stroke-width="8"/>
+    <path d="M170 58L258 109V211L170 262L82 211V109L170 58Z" fill="none" stroke="#163D8F" stroke-width="6"/>
+    <path d="M170 80L239 120V200L170 240L101 200V120L170 80Z" fill="none" stroke="#0F5FC7" stroke-width="5"/>
+    <path d="M170 104L219 132V188L170 216L121 188V132L170 104Z" fill="url(#token)" stroke="#C2410C" stroke-width="4"/>
+    <path d="M170 58V104M258 109L219 132M258 211L219 188M170 262V216M82 211L121 188M82 109L121 132" stroke="#163D8F" stroke-width="4"/>
+    <path d="M101 120L239 200M239 120L101 200M170 80L170 240M121 132L219 188M219 132L121 188" stroke="#0EA5E9" stroke-width="3.5"/>
+  </g>
+
+  <g transform="translate(490 120)">
+    <rect x="0" y="18" width="136" height="24" rx="12" fill="#DBEAFE"/>
+    <text x="68" y="35" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1D4ED8">LOW TOKEN WORKFLOW</text>
+    <text x="0" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#102A43">Agent Token</text>
+    <text x="0" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#102A43">Optimization Workflow</text>
+    <text x="2" y="246" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#24507A">Reduce token cost without hurting agent quality.</text>
+    <text x="2" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#476582">Docs, SOPs, templates, and patterns for low-token agent development.</text>
+    <g transform="translate(0 334)">
+      <rect x="0" y="0" width="126" height="38" rx="19" fill="#E8F1FF"/>
+      <text x="63" y="24" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E40AF">Codex</text>
+      <rect x="142" y="0" width="176" height="38" rx="19" fill="#EAF7FF"/>
+      <text x="230" y="24" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#0369A1">Claude Code</text>
+      <rect x="334" y="0" width="232" height="38" rx="19" fill="#ECFDF5"/>
+      <text x="450" y="24" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#047857">Context Engineering</text>
+      <rect x="582" y="0" width="206" height="38" rx="19" fill="#FFF7ED"/>
+      <text x="685" y="24" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#C2410C">Token Optimization</text>
+    </g>
+  </g>
+</svg>

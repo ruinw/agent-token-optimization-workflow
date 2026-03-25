@@ -1,4 +1,6 @@
-﻿# Agent Token Optimization Workflow
+﻿<p align="center">
+  <img src="assets/banner.svg" alt="Agent Token Optimization Workflow banner" width="100%">
+</p>`r`n`r`n# Agent Token Optimization Workflow
 
 A documentation-first workflow for reducing token consumption in agent-driven development without degrading session quality, skill recall, or task success rate.
 
@@ -116,3 +118,5 @@ If you want to share a lighter package, use [external-share/](external-share/). 
 ## License
 
 This repository is prepared with an MIT license by default. Change it if your distribution policy requires a different license.
+
+
