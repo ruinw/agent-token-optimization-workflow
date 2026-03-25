@@ -4,15 +4,58 @@ A documentation-first workflow for reducing token consumption in agent-driven de
 
 适用范围：`Codex`、`Claude Code` 及其他通用 Agent CLI。
 
-## What This Repository Provides
+## Why This Exists
 
-This repository contains a reusable workflow for teams that want to:
+Many agent projects become expensive for the wrong reasons:
 
-- reduce fixed context cost
-- reduce repeated context loading
-- keep critical skill recall stable
-- keep simple tasks fast
-- support dynamic skill discovery as projects evolve
+- oversized global instructions
+- repeated loading of the same context
+- overexposed skill catalogs
+- long raw session history
+- no mechanism to discover new skills as projects evolve
+
+This repository packages a practical workflow to reduce those costs without making agents dumber, slower, or more fragile.
+
+## Who This Is For
+
+- teams using CLI agents in daily engineering work
+- maintainers of long-running agent-assisted projects
+- people designing reusable prompt, context, and skill-loading conventions
+- anyone trying to lower token cost without hurting real task performance
+
+## What You Get
+
+- a team guide for shared principles
+- an SOP for repeatable execution
+- a full report explaining the architecture and trade-offs
+- an implementation checklist
+- reusable prompt templates for existing and new projects
+- an external-share package for lightweight distribution
+
+## Quick Start
+
+### If you have an existing project
+
+1. Read [the summary](docs/token-optimization-summary.md).
+2. Read [the team guide](TEAM_GUIDE.md).
+3. Follow [the SOP](STANDARD_OPERATING_PROCEDURE.md).
+4. Use [the checklist](docs/token-optimization-checklist.md).
+5. Start from [the prompt templates](templates/prompt-templates.md).
+
+### If you are starting a new project
+
+1. Read [the summary](docs/token-optimization-summary.md).
+2. Read [the prompt templates](templates/prompt-templates.md).
+3. Initialize `PROJECT_CONTEXT.md`, `PROJECT_SKILLS.md`, and a session summary template.
+4. Use [the checklist](docs/token-optimization-checklist.md) to keep the setup lightweight.
+
+## Core Ideas
+
+- Optimize fixed context cost before cutting capabilities.
+- Keep skill installation broad, but default exposure narrow.
+- Keep indexes resident, but load detailed content on demand.
+- Replace long raw history with structured summaries.
+- Support dynamic skill recall when new domains or task types appear.
 
 ## Repository Structure
 
@@ -41,30 +84,26 @@ This repository contains a reusable workflow for teams that want to:
 
 ## Recommended Reading Order
 
-1. `docs/token-optimization-summary.md`
-2. `TEAM_GUIDE.md`
-3. `STANDARD_OPERATING_PROCEDURE.md`
-4. `docs/token-optimization-report.md`
-5. `docs/token-optimization-checklist.md`
-6. `templates/prompt-templates.md`
+1. [docs/token-optimization-summary.md](docs/token-optimization-summary.md)
+2. [TEAM_GUIDE.md](TEAM_GUIDE.md)
+3. [STANDARD_OPERATING_PROCEDURE.md](STANDARD_OPERATING_PROCEDURE.md)
+4. [docs/token-optimization-report.md](docs/token-optimization-report.md)
+5. [docs/token-optimization-checklist.md](docs/token-optimization-checklist.md)
+6. [templates/prompt-templates.md](templates/prompt-templates.md)
 
-## Core Ideas
+## Typical Outcomes
 
-- Optimize fixed context cost before cutting capabilities.
-- Keep skill installation broad, but default exposure narrow.
-- Keep indexes resident, but load detailed content on demand.
-- Replace long raw history with structured summaries.
-- Support dynamic skill recall when new domains or task types appear.
+Teams using this workflow should aim to achieve:
 
-## Suggested Usage
+- lower fixed token cost per session
+- lower repeated context cost in long conversations
+- stable or improved skill recall
+- no significant increase in clarification rounds
+- no significant regression in task success rate
 
-### For existing projects
+## External Sharing
 
-Use this repository to audit current token costs, identify waste sources, and introduce a lower-cost context structure without breaking existing workflows.
-
-### For new projects
-
-Use this repository to design a low-token context model from the start, including minimal project context, skill tiers, summary templates, and dynamic skill recall.
+If you want to share a lighter package, use [external-share/](external-share/). It contains a more presentation-friendly copy of the core materials.
 
 ## License
 
